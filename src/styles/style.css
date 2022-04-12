@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.topBar {
+  padding: 10px 11px 5px 11px;
+  -webkit-user-select: none;
+  
+}
+
+.drag{
+  -webkit-app-region: drag;
+}
+
+.no_drag{
+  -webkit-app-region: no-drag;
+}
+
+.topBar .menuBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topBar .menuBar div .btnSettings {
+  margin-right: 15px;
+}
+
+.form-search {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  -webkit-user-select: none;
+}
+
+.form-search form {
+  display: flex;
+}
+
+.form-search form button {
+  border-radius: 0px 2px 2px 0px;
+  padding: 5px;
+}
+
+.form-search h1 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.form-search input {
+  background-color: #ededed;
+  width: 100%;
+  padding: 11px 10px;
+  outline: none;
+  border-radius: 2px 0px 0px 2px;
+}

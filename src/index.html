@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <title>Hello World!</title>
+        
+        <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+      <div id="mainApp">
+        <div class="topBar drag">
+            <div class="menuBar">
+                <a href="" class="btnAdd " >
+                    <img src="icons/add_black_24dp.svg" class="no_drag" id="add" alt="">
+                </a>
+             <div>
+                 <a href="" class="btnSettings ">
+                    <img src="icons/settings_black_24dp.svg" class="no_drag" id="setting" alt="">
+                </a>
+                <a href="" class="btnClose " >
+                    <img src="icons/close_black_24dp.svg" class="no_drag" id="close" alt="">
+                </a>
+             </div>
+            </div>
+            
+     </div>
+     <div class="form-search">
+         <h1> Notas Autoadesivas</h1>
+        <form action="">
+            <input type="text" placeholder="Pesquisar...">
+            <button>
+                <img src="icons/search_black_24dp.svg" alt="">
+            </button>
+        </form>
+     </div>
+     <main>
+         <a id="teste">Clica aqui</a>
+     </main>
+    </div>
+
+  </body>
+  <script src="js/index.js"></script>
+</html>
