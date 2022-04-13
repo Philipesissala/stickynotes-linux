@@ -8,10 +8,10 @@ require("electron-reload")(__dirname);
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 350,
-    height: 640,
-    minWidth: 350,
-    minHeight: 560,
+    width: 310,
+    height: 600,
+    minWidth: 310,
+    minHeight: 500,
     frame: false,
     autoHideMenuBar: true,
     webPreferences: {
@@ -24,7 +24,7 @@ const createWindow = () => {
   });
 
   win.loadFile("src/index.html");
-  
+
 };
 
 app.whenReady().then(() => {
